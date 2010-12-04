@@ -5,6 +5,7 @@ title: Miguel Blog
 
 {% for post in site.posts limit:5 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{{ post.content }}
+{{ post.abstract }}
+</br>
 <em>Posted on {{ post.date | date_to_string }}.</em>
 {% endfor %}
