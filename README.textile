@@ -1,0 +1,9 @@
+Miguel Blog
+
+Done using Jekyll.
+"(classname)link text(title tooltip)":http://github.com/mojombo/jekyll 
+
+TODO:
+-google analytics
+-stylesheets
+-images
