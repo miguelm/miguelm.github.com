@@ -1,9 +1,11 @@
-Miguel Blog
+h1. Miguel Blog
 
-Done using Jekyll.
-"(classname)link text(title tooltip)":http://github.com/mojombo/jekyll 
+This is the raw skeleton for my blog on _Github_.
+It was done using "Jekyll(Jekyll blogging system)":http://github.com/mojombo/jekyll 
 
-TODO:
--google analytics
--stylesheets
--images
+h1. TODO:
+* Google analytics
+* Stylesheets
+* Images
+* Categories
+* Some posts...*
