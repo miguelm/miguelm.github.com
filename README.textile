@@ -8,4 +8,4 @@ h1. TODO:
 * Stylesheets
 * Images
 * Categories
-* Some posts...*
+* Some posts...
