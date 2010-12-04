@@ -4,7 +4,7 @@ This is the raw skeleton for my blog on _Github_.
 It was done using "Jekyll(Jekyll blogging system)":http://github.com/mojombo/jekyll 
 
 h1. TODO:
-* Google analytics
+* Google analytics (done)
 * Stylesheets
 * Images
 * Categories
