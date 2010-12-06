@@ -4,6 +4,8 @@ title: First Post
 abstract: This is a short abstract of this post
 ---
 
+h1. {{ page.title }}
+
 This will be the best blog evar!!!!
 
 * because...

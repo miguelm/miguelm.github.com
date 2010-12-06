@@ -4,6 +4,8 @@ title: Second Post
 abstract: Short abstract for second post
 ---
 
+h1. {{ page.title }}
+
 Second post to test out stuff
 
 This will be the best blog evar!!!!
