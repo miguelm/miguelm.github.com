@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>{{ page.title }}</title>
-	<meta name="generator" content="TextMate http://macromates.com/">
-	<meta name="author" content="Miguel">
-	
-	<link href="/stylesheets/960.css" media="screen" rel="stylesheet" type="text/css" />
-	<link href="/stylesheets/home.css" media="screen" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="generator" content="TextMate http://macromates.com/">
+    <meta name="author" content="Miguel">
+
+    <link href="/stylesheets/960.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/home.css" media="screen" rel="stylesheet" type="text/css" />
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20072703-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- Google Analytics end-->
 </head>
 
 <body>
-	<h1> {{ page.title }}</h1>
-	<a href="/">
-		<img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/noun_project_19.png" alt="Back to the rabbit hole!"/>
-	</a>
+    <h1> {{ page.title }}</h1>
+    <a href="/">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/noun_project_19.png" alt="Back to the rabbit hole!"/>
+    </a>
 {{ content }}
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20072703-1']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-<!-- Google Analytics end-->
 </body>
 </html>
