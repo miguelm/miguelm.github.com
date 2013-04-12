@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <meta name="generator" content="TextMate http://macromates.com/">
-    <meta name="author" content="Miguel">
+    <title> {% if page.title %} {{ page.title }} | {% endif %} John Doe, Photographer </title>
+    <meta name="description" content="">
+    <meta name="author" content="Miguel Marinhas">
 
-    <link href="/stylesheets/960.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/home.css" media="screen" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--<link href="/css/styles.css" media="screen" rel="stylesheet" type="text/css" />-->
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
     <!-- Google Analytics -->
     <script type="text/javascript">
       var _gaq = _gaq || [];
@@ -23,10 +43,46 @@
 </head>
 
 <body>
-    <h1> {{ page.title }}</h1>
-    <a href="/" alt="home">
-        <img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/noun_project_19.png" alt="Back to the rabbit hole!"/>
-    </a>
-{{ content }}
+  <div class="container">
+    <div class="main">
+      <div class="sixteen columns logo">
+        <h1 class="name">Miguel Marinhas</h1>
+      </div>
+
+      <span class="image-wrap" style="position:relative; display:inline-block; background:url(/img/photofirst.png) no-repeat center center; width: 175px; height: 175px;">
+        <img src="/img/photofirst.png" style="opacity: 0;">
+      </span>
+
+      <div class="sixteen columns">
+        <nav role="navigation">
+          <ul>
+            <!--
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+            -->
+          </ul>
+        </nav>
+      </div>
+   
+      {{ content }}
+   
+      <footer class="sixteen columns">
+        <ul class="six columns alpha">
+          <li>
+            © 2013 My own design
+          </li> 
+        </ul>
+        <ul class="links ten columns omega">
+          <li><a href="http://github.com/miguelm">GitHub</a></li>
+          <li><a href="http://www.linkedin.com/in/miguelmarinhas">LinkedIn</a></li>
+        </ul>
+      </footer>
+      
+    </div>
+ 
+  </div>
 </body>
 </html>
+
