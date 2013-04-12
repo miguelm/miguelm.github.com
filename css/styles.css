@@ -138,6 +138,14 @@ footer ul.links {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+         .jobs li {
+           float: none;
+           padding-bottom: 10px;
+           padding-top: 0px;
+         }
+          li {
+            margin-bottom: 0px;
+          }
           h1.name {
             font-size: 3em;
           }
