@@ -20,7 +20,7 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     compass-validator (3.0.1)
-    concurrent-ruby (1.1.6)
+    concurrent-ruby (1.3.7)
     css_parser (1.4.1)
       addressable
     em-websocket (0.5.1)
